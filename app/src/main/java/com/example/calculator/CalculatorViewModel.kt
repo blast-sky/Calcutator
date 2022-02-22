@@ -4,7 +4,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class CalculatorViewModel : ViewModel() {
-    val expression: MutableLiveData<String> = MutableLiveData("")
+    val expression = MutableLiveData(String())
     private val calculator = CalculatorModel()
     private val maxExpressionLength = 10
 

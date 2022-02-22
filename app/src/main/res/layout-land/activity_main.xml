@@ -31,13 +31,11 @@
             <Button
                 android:id="@+id/button_clear"
                 style="@style/OperationButton"
-                android:onClick="onClearAll"
                 android:text="C" />
 
             <Button
                 android:id="@+id/button_clear_one"
                 style="@style/OperationButton"
-                android:onClick="onClearOne"
                 android:text="⌫" />
 
             <Button
@@ -168,7 +166,6 @@
                 android:id="@+id/button_equals"
                 style="@style/OperationButton"
                 android:layout_span="3"
-                android:onClick="onEqual"
                 android:text="=" />
         </TableRow>
     </TableLayout>

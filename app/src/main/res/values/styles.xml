@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="DigitButton" parent="Widget.AppCompat.TextView">
-        <item name="android:textColor">@color/black</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
         <item name="android:background">@android:color/transparent</item>
         <item name="android:textSize">30sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:onClick">onCalcButtonClick</item>
+        <item name="android:onClick">onCalcButtonsClick</item>
     </style>
 
     <style name="OperationButton" parent="DigitButton">

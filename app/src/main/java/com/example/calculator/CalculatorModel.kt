@@ -36,10 +36,6 @@ class CalculatorModel {
         if(string.isEmpty())
             return false
         val lastChar = string.last()
-        return lastChar.isDigit() || lastChar.isLetter() || isScope(lastChar)
-    }
-
-    private fun isScope(char: Char) : Boolean {
-        return char == ')' || char == '('
+        return lastChar.isDigit() || lastChar.isLetter() || lastChar.isBrace()
     }
 }
